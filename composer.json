@@ -1,7 +1,7 @@
 {
     "name": "tsumarika/hiragana",
     "type": "library",
-    "version": "1.0",
+    "version": "1.01",
     "autoload": {
         "psr-4": {             
             "Tsumari\\Hiragana\\": "src/"
