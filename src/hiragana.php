@@ -6,11 +6,11 @@ $dotenv -> load();
 $goo_hiragana_url = 'https://labs.goo.ne.jp/api/hiragana';
 
 $params = [
-    'app_id' => $_ENV['APP_ID'],
+    'app_id' => $_ENV['GOO_APP_ID'],
     'sentence' => '漢字が混ざっている文章',
     'output_type' => 'hiragana',
 ];
-print_r($params);
+// print_r($params);
 $json_params = json_encode($params);
 
 $opts = array(
