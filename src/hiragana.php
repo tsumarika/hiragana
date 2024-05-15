@@ -1,6 +1,6 @@
 <?php
 
-namespace Tsumari;
+namespace Tsumari\Hiragana;
 
 class Hiragana {
     private $goo_hiragana_api_url = 'https://labs.goo.ne.jp/api/hiragana';
